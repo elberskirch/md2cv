@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require 'md2cv'
+
+Md2Cv::CLI.run(ARGV)
