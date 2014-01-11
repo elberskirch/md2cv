@@ -17,7 +17,7 @@ This installes a binary called md2cv.
 Make sure you have the wkhtml2pdf binary installed.  
 ## Usage
 
-   $ md2cv cv-in-markdown.md
+    $ md2cv cv-in-markdown.md
    
 This creates a directory named "build" in the current directory and 
 copies stylesheets from the template in that directory. In "build" you'll
