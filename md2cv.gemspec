@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["dominik.elberskirch@gmail.com"]
   spec.description   = %q{markdown to cv html/pdf generator}
   spec.summary       = %q{generate html/pdf version of your cv written in markdown}
-  spec.homepage      = "github.com/elberskirch/md2cv"
+  spec.homepage      = "https://github.com/elberskirch/md2cv"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files`.split($/)
