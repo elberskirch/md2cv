@@ -12,7 +12,7 @@ Simply run:
 
     $ gem install md2cv
 
-This installes a binary called md2cv. 
+This installes a binary called md2cv in your path. 
 
 Make sure you have the wkhtml2pdf binary installed.  
 ## Usage
@@ -28,3 +28,7 @@ also find cv-in-markdown.[html|pdf].
 Under lib/template/ there's a slim template and the according css files that 
 are installed & used by default. 
 
+If you want to write your own stylesheets just have a look at the base.slim template 
+and make sure the links to the css are not pointing to a sub-directory but are in the same directory.
+
+md2cv expects a slim template named "base.slim". 
